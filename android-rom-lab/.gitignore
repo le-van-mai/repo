@@ -1,0 +1,7 @@
+# Kết quả build/mổ xẻ ROM (file lớn, không đưa lên git)
+out/
+unpacked_*/
+*.tar
+*.tar.md5
+*.img
+*.lz4

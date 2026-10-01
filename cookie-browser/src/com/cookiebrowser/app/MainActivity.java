@@ -151,6 +151,8 @@ public class MainActivity extends Activity {
         s.setDisplayZoomControls(false);
         s.setSupportZoom(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
+        // Cho phep debug trang web qua chrome://inspect tren may tinh (USB)
+        WebView.setWebContentsDebuggingEnabled(true);
 
         CookieManager cm = CookieManager.getInstance();
         cm.setAcceptCookie(true);
